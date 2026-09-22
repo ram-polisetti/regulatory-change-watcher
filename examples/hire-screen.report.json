@@ -1,0 +1,99 @@
+{
+  "system_name": "HireScreen CV Ranker",
+  "risk_tier": "high-risk",
+  "exit_code": 1,
+  "findings": [
+    {
+      "tier": "high-risk",
+      "rule_id": "H-annex-iii-point-4",
+      "article": "Article 6(2); Annex III, point 4(a)-(b)",
+      "title": "High-risk use case: Employment, workers management, access to self-employment",
+      "description": "Recruitment or selection (targeted job ads, CV screening, candidate evaluation); decisions on work-related relationships (promotion, termination), task allocation, or monitoring and evaluation of performance and behaviour.",
+      "matched_tags": [
+        "recruitment",
+        "cv_screening",
+        "candidate_evaluation"
+      ]
+    }
+  ],
+  "transparency_obligations": [
+    {
+      "rule_id": "T-1",
+      "article": "Article 50(1)",
+      "title": "Disclosure of AI interaction",
+      "description": "Providers of AI systems intended to interact directly with natural persons must ensure those persons are informed they are interacting with an AI system."
+    }
+  ],
+  "gpai_analysis": null,
+  "conformity_checklist": [
+    {
+      "article": "Article 9",
+      "item": "Risk management system",
+      "detail": "Establish, implement, document and maintain a risk management system as a continuous iterative process throughout the high-risk AI system's lifecycle."
+    },
+    {
+      "article": "Article 10",
+      "item": "Data and data governance",
+      "detail": "Training, validation and testing datasets must be relevant, sufficiently representative, as error-free as possible, and have appropriate statistical properties for the intended purpose; examine datasets for biases likely to affect health, safety, fundamental rights or lead to discrimination."
+    },
+    {
+      "article": "Article 11, Annex IV",
+      "item": "Technical documentation",
+      "detail": "Draw up technical documentation per Annex IV before placing on the market or putting into service, and keep it up to date."
+    },
+    {
+      "article": "Article 12",
+      "item": "Record-keeping / logging",
+      "detail": "Design the system with automatic logging capabilities; for Annex III systems the logs must at minimum record the period of each use, the reference database used, the input data, and the persons involved in verification."
+    },
+    {
+      "article": "Article 13",
+      "item": "Transparency and instructions for use",
+      "detail": "Design for sufficient transparency; provide instructions for use covering capabilities, limitations, and the level of accuracy/robustness so deployers can interpret outputs."
+    },
+    {
+      "article": "Article 14",
+      "item": "Human oversight",
+      "detail": "Design for effective human oversight, including the ability to intervene or stop the system; for biometric identification, verification by at least two natural persons with the necessary competence, training and authority."
+    },
+    {
+      "article": "Article 15",
+      "item": "Accuracy, robustness and cybersecurity",
+      "detail": "Achieve appropriate levels of accuracy, robustness and cybersecurity throughout the lifecycle; be resilient to errors, faults, inconsistencies and adversarial attempts (data poisoning, model evasion, confidentiality attacks)."
+    },
+    {
+      "article": "Article 16",
+      "item": "Provider obligations",
+      "detail": "Ensure the system meets Section 2 requirements; operate a quality management system (Article 17); complete the conformity assessment (Article 43); draw up the EU declaration of conformity and affix the CE marking; take corrective action and inform authorities where non-conformity is found."
+    },
+    {
+      "article": "Article 26",
+      "item": "Deployer obligations",
+      "detail": "Use the system per the instructions; assign human oversight to persons with competence, training and authority; monitor operation and report serious incidents and malfunctions."
+    },
+    {
+      "article": "Article 27",
+      "item": "Fundamental rights impact assessment (FRIA)",
+      "detail": "Deployers that are bodies governed by public law, or private entities providing public services, and deployers of Annex III systems in certain areas must perform a fundamental rights impact assessment before first use."
+    },
+    {
+      "article": "Article 43",
+      "item": "Conformity assessment",
+      "detail": "Follow the applicable conformity assessment procedure — internal control (Annex VI) or assessment of the quality management system and technical documentation with a notified body (Annex VII)."
+    },
+    {
+      "article": "Article 49, Annex VIII",
+      "item": "EU database registration",
+      "detail": "Register the high-risk AI system in the EU database with the information listed in Annex VIII before placing on the market or putting into service."
+    },
+    {
+      "article": "Article 72",
+      "item": "Post-market monitoring",
+      "detail": "Establish a post-market monitoring system proportionate to the system's nature, collecting data on performance and serious incidents throughout its lifetime."
+    }
+  ],
+  "act": "Regulation (EU) 2024/1689 (OJ L 2024/1689)",
+  "act_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+  "knowledge_date": "2026-09-22",
+  "disclaimer": "Automated triage aid, not legal advice. Verify every determination against the official Act text and consult qualified counsel before placing a system on the market."
+}

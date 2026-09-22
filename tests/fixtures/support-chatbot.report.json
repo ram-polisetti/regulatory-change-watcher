@@ -1,0 +1,20 @@
+{
+  "system_name": "ShopHelp Support Chatbot",
+  "risk_tier": "limited-risk",
+  "exit_code": 0,
+  "findings": [],
+  "transparency_obligations": [
+    {
+      "rule_id": "T-1",
+      "article": "Article 50(1)",
+      "title": "Disclosure of AI interaction",
+      "description": "Providers of AI systems intended to interact directly with natural persons must ensure those persons are informed they are interacting with an AI system."
+    }
+  ],
+  "gpai_analysis": null,
+  "conformity_checklist": [],
+  "act": "Regulation (EU) 2024/1689 (OJ L 2024/1689)",
+  "act_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+  "knowledge_date": "2026-09-22",
+  "disclaimer": "Automated triage aid, not legal advice. Verify every determination against the official Act text and consult qualified counsel before placing a system on the market."
+}

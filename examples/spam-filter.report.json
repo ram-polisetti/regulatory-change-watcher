@@ -1,0 +1,13 @@
+{
+  "system_name": "MailSieve Spam Filter",
+  "risk_tier": "minimal-risk",
+  "exit_code": 0,
+  "findings": [],
+  "transparency_obligations": [],
+  "gpai_analysis": null,
+  "conformity_checklist": [],
+  "act": "Regulation (EU) 2024/1689 (OJ L 2024/1689)",
+  "act_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+  "knowledge_date": "2026-09-22",
+  "disclaimer": "Automated triage aid, not legal advice. Verify every determination against the official Act text and consult qualified counsel before placing a system on the market."
+}

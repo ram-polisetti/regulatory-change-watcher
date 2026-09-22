@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regulatory-change-watcher"
+version = "0.1.0"
+description = "Watch official AI-regulation sources; flag conformity assessments that went stale"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [{ name = "Ram Charan Satya Sai Teja Polisetti" }]
+
+[project.scripts]
+regwatch = "regwatch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

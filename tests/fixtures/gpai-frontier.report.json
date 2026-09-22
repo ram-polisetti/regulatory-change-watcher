@@ -1,0 +1,59 @@
+{
+  "system_name": "Atlas-1 Foundation Model",
+  "risk_tier": "minimal-risk",
+  "exit_code": 0,
+  "findings": [],
+  "transparency_obligations": [],
+  "gpai_analysis": {
+    "is_gpai_model": true,
+    "training_compute_flop": 3e+25,
+    "systemic_risk": true,
+    "systemic_risk_basis": "Cumulative training compute 3e+25 FLOP exceeds the Article 51(2) presumption threshold of 1e25 FLOP.",
+    "provider_duties": [
+      {
+        "article": "Article 53(1)(a), Annex XI",
+        "duty": "Draw up and keep up-to-date technical documentation of the model."
+      },
+      {
+        "article": "Article 53(1)(b), Annex XII",
+        "duty": "Draw up, keep up-to-date and make available information and documentation to providers intending to integrate the model into their AI systems."
+      },
+      {
+        "article": "Article 53(1)(c)",
+        "duty": "Put in place a policy to comply with Union copyright law, including identifying and complying with reservations of rights (opt-outs) under Directive (EU) 2019/790."
+      },
+      {
+        "article": "Article 53(1)(d)",
+        "duty": "Draw up and make publicly available a sufficiently detailed summary of the content used for training."
+      },
+      {
+        "article": "Article 53(2)",
+        "duty": "Note: providers of GPAI models released under a free and open-source licence are exempt from the (a) and (b) duties, unless the model presents systemic risk."
+      }
+    ],
+    "systemic_risk_duties": [
+      {
+        "article": "Article 55(1)(a)",
+        "duty": "Perform model evaluations per standardised protocols, including adversarial testing, to identify and mitigate systemic risks."
+      },
+      {
+        "article": "Article 55(1)(b)",
+        "duty": "Assess and mitigate possible systemic risks at Union level, including their sources."
+      },
+      {
+        "article": "Article 55(1)(c)",
+        "duty": "Track, document and report serious incidents and corrective measures to the AI Office and national authorities without undue delay."
+      },
+      {
+        "article": "Article 55(1)(d)",
+        "duty": "Ensure an adequate level of cybersecurity protection for the model and its physical infrastructure."
+      }
+    ],
+    "open_source": false
+  },
+  "conformity_checklist": [],
+  "act": "Regulation (EU) 2024/1689 (OJ L 2024/1689)",
+  "act_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+  "knowledge_date": "2026-09-22",
+  "disclaimer": "Automated triage aid, not legal advice. Verify every determination against the official Act text and consult qualified counsel before placing a system on the market."
+}
